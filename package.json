@@ -1,0 +1,24 @@
+{
+  "name": "email-reply-assistant",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "watch": "vite build --watch"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.21",
+    "@types/chrome": "^0.0.260",
+    "dotenv-webpack": "^8.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.10"
+  }
+}
